@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
@@ -24,6 +26,10 @@ main {
     overflow: hidden;
 }
 
+.content h1 {
+    font-family: "Fraunces", serif;
+}
+
 .perfume-picture {
     width: 50%;
     border-radius: 10px 0px 0px 10px;
@@ -45,6 +51,10 @@ main {
 .price-cart {
     display: flex;
     align-items: center;
+}
+
+.price-cart h1 {
+    font-family: "Fraunces", serif;
 }
 
 
